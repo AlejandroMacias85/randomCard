@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+  box-sizing: border-box;
+}
+.card {
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  font-size: 80px;
+  padding: 20px;
+  padding-top: 120px;
+  border: 1px solid;
+  border-radius: 8px;
+  position: relative;
+}
+.top {
+  font-size: 90px;
+  position: absolute;
+  top: -30px;
+  left: 10px;
+}
+.bottom {
+  font-size: 90px;
+  position: absolute;
+  bottom: -30px;
+  right: 10px;
+}
+#invert {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  display: inline-block;
+}
